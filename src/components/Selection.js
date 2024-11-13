@@ -6,7 +6,6 @@ const Selection = ({ applyColor }) => {
   const handleClick = () => {
     applyColor((newBg) => setBg({ background: newBg }))
   }
-
   return (
     <div
       className='fix-box'
