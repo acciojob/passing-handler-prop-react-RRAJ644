@@ -15,13 +15,7 @@
 .subheading{
   color: white;
   text-align: center;
-}
-
-.fix-box {
-  width: 250px;
-  height: 250px;
-  margin: 20px;
-  border: 1px white dotted;
+  font-size: 1.5rem;
 }
 
 #children-wrapper {
