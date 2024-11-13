@@ -1,6 +1,6 @@
 // src/components/Selection.js
 import React, { useState } from 'react'
-import '../styles/Child.css' // Adjust this path as necessary
+import '../styles/Child.css'
 
 const Selection = ({ applyColor }) => {
   const [backgroundColor, setBackgroundColor] = useState('transparent')
