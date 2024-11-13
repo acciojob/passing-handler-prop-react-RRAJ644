@@ -1,19 +1,22 @@
+// src/components/Selection.js
 import React, { useState } from 'react'
+import '../styles/Child.css' // Adjust this path as necessary
 
 const Selection = ({ applyColor }) => {
-  const [bg, setBg] = useState({ background: '' })
+  const [backgroundColor, setBackgroundColor] = useState('transparent')
 
   const handleClick = () => {
-    applyColor((newBg) => setBg({ background: newBg }))
+    applyColor((color) => {
+      setBackgroundColor(color.background)
+    })
   }
+
   return (
     <div
       className='fix-box'
-      style={{ background: bg?.background }}
+      style={{ backgroundColor: backgroundColor }}
       onClick={handleClick}
-    >
-      <h5>Selection</h5>
-    </div>
+    />
   )
 }
 
