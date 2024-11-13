@@ -20,6 +20,36 @@ html, body {
     top: -15%;
 }
 
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#children-wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding: 0 2rem;
+  gap: 1.5rem;
+  height: 100%;
+
+}
+
+.fix-box {
+  width: 70%;
+  height: 70%;
+  gap: 2rem;
+  border: 1px solid red;
+  margin-top: 1rem;
+}
+
+.fix-box > h5{
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
 .holder {
     display: flex;
     margin: auto;
