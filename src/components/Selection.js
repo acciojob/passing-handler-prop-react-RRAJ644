@@ -15,7 +15,9 @@ const Selection = ({ applyColor }) => {
       className='fix-box'
       style={{ backgroundColor: backgroundColor }}
       onClick={handleClick}
-    />
+    >
+      <h5 className='subheading'>Selection</h5>
+    </div>
   )
 }
 
