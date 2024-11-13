@@ -1,4 +1,3 @@
-// src/components/Selection.js
 import React, { useState } from 'react'
 import '../styles/Child.css'
 
