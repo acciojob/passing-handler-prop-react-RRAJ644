@@ -1,20 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const Selection = ({
-  applyColor,
-  updateSelectionStyle,
-  nextBackground,
-  selectionColors,
-  index,
-}) => {
+const Selection = ({ applyColor }) => {
+  const [bg, setBg] = useState({ background: '' })
+
   const handleClick = () => {
-    applyColor(index, nextBackground)
+    applyColor((newBg) => setBg({ background: newBg }))
   }
 
   return (
     <div
       className='fix-box'
-      style={{ backgroundColor: selectionColors[index] || 'transparent' }}
+      style={{ background: bg?.background }}
       onClick={handleClick}
     >
       <h5>Selection</h5>
