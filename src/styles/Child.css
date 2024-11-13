@@ -8,7 +8,7 @@
 
 #master{
   border-radius: 5px;
-  border: 2px white ridge;
+  /* border: 2px white ridge; */
   width: 100%;
   text-align: center;
 }
