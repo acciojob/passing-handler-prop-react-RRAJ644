@@ -41,12 +41,14 @@ html, body {
   height: 70%;
   gap: 2rem;
   margin-top: 1rem;
+  border: 1px solid black;
 }
 
 .fix-box > h5{
   color: white;
   font-size: 1.3rem;
   text-align: center;
+
 }
 
 .holder {
